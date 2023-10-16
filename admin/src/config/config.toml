@@ -1,0 +1,44 @@
+[COMMON]
+port                            = 8081
+# 是否开启双向HTTPS认证
+open_tls                        = false
+
+
+[MySQL]
+url                             = "127.0.0.1:3306"
+user                            = "root"
+pwd                             = "123456"
+db_name                         = "seckill"
+# 空闲连接
+max_idle = 2000
+# 最大连接数
+max_active = 10000
+# 连接超时时间
+idle_timeout = 500
+
+[Redis]
+url  = "127.0.0.1:6379"
+auth = "123456"
+# 空闲连接
+max_idle = 20
+# 最大连接数
+max_active = 100
+# 连接超时时间
+idle_timeout = 300
+#cache_timeout = 60
+#cache_timeout_verify_code = 120
+# cache_timeout_day: 缓存超时时间（以天为单位）
+cache_timeout_day = 3
+
+
+[Task]
+# 多少行数据进行一次分割（500w）
+table_max_rows                  = 5000000
+# 多少秒检查进行一次分割
+split_interval                  = 300000
+# 多少秒检查一次长时间未处理的任务
+long_process_interval           = 3000000
+# 多少秒检查迭代begin_pos
+move_interval                   = 30000000
+# 如果配置信息表 任务的最大执行时间为0，那么我们就使用下面的配置，做服务治理
+max_process_time                = 10

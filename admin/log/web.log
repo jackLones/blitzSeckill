@@ -1,0 +1,792 @@
+2023-10-13 17:39:50.303::::::WARN:::<nil>:::72:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:39:50.304::::::INFO:::483bd11e-c491-4c34-b05a-ba30274e05b9:::72:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /settlement/page?productId=20002001&st=c81e728d9d4c2f636f067f89cc14862c,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:39:50.305::::::INFO:::483bd11e-c491-4c34-b05a-ba30274e05b9:::72:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /settlement/page?productId=20002001&st=c81e728d9d4c2f636f067f89cc14862c, cost 1.5672ms Resp Body {"message":"page"}
+2023-10-13 17:39:50.305::::::INFO:::483bd11e-c491-4c34-b05a-ba30274e05b9:::72:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/settlement/page]-Duration[0.0015672]
+2023-10-13 17:39:52.35::::::WARN:::<nil>:::73:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:39:52.35::::::INFO:::5a11bf01-169c-42f4-8d3f-e0a341bc432d:::73:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /settlement/page?productId=20002001&st=c81e728d9d4c2f636f067f89cc14862c,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:39:52.35::::::INFO:::5a11bf01-169c-42f4-8d3f-e0a341bc432d:::73:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /settlement/page?productId=20002001&st=c81e728d9d4c2f636f067f89cc14862c, cost 0s Resp Body {"message":"page"}
+2023-10-13 17:39:52.35::::::INFO:::5a11bf01-169c-42f4-8d3f-e0a341bc432d:::73:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/settlement/page]-Duration[0]
+2023-10-13 17:39:52.973::::::WARN:::<nil>:::43:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:39:52.973::::::INFO:::ae730058-2dd9-4a9a-8caf-510da75d2201:::43:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /settlement/page?productId=20002001&st=c81e728d9d4c2f636f067f89cc14862c,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:39:52.973::::::INFO:::ae730058-2dd9-4a9a-8caf-510da75d2201:::43:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /settlement/page?productId=20002001&st=c81e728d9d4c2f636f067f89cc14862c, cost 0s Resp Body {"message":"page"}
+2023-10-13 17:39:52.973::::::INFO:::ae730058-2dd9-4a9a-8caf-510da75d2201:::43:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/settlement/page]-Duration[0]
+2023-10-13 17:39:53.15::::::WARN:::<nil>:::77:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:39:53.15::::::INFO:::d904dd94-a2d0-4e08-8f09-d81e2e3efcd5:::77:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /settlement/page?productId=20002001&st=c81e728d9d4c2f636f067f89cc14862c,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:39:53.15::::::INFO:::d904dd94-a2d0-4e08-8f09-d81e2e3efcd5:::77:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /settlement/page?productId=20002001&st=c81e728d9d4c2f636f067f89cc14862c, cost 0s Resp Body {"message":"page"}
+2023-10-13 17:39:53.15::::::INFO:::d904dd94-a2d0-4e08-8f09-d81e2e3efcd5:::77:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/settlement/page]-Duration[0]
+2023-10-13 17:39:55.134::::::WARN:::<nil>:::82:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:39:55.134::::::INFO:::cf93305c-7aa8-4b3d-acce-613f606a6023:::82:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /settlement/page,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:39:55.134::::::INFO:::cf93305c-7aa8-4b3d-acce-613f606a6023:::82:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /settlement/page, cost 0s Resp Body {"message":"page"}
+2023-10-13 17:39:55.134::::::INFO:::cf93305c-7aa8-4b3d-acce-613f606a6023:::82:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/settlement/page]-Duration[0]
+2023-10-13 17:39:56.977::::::WARN:::<nil>:::26:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:39:56.977::::::INFO:::d9cb314b-f401-4d25-bcc5-a91f5a7e1a51:::26:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /query,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:39:56.977::::::INFO:::d9cb314b-f401-4d25-bcc5-a91f5a7e1a51:::26:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /query, cost 0s Resp Body {"message":"query"}
+2023-10-13 17:39:56.977::::::INFO:::d9cb314b-f401-4d25-bcc5-a91f5a7e1a51:::26:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/query]-Duration[0]
+2023-10-13 17:39:58.294::::::WARN:::<nil>:::78:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:39:58.294::::::INFO:::9f664e97-fa06-4479-ac17-ce2de29bf1f3:::78:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /query,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:39:58.294::::::INFO:::9f664e97-fa06-4479-ac17-ce2de29bf1f3:::78:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /query, cost 0s Resp Body {"message":"query"}
+2023-10-13 17:39:58.294::::::INFO:::9f664e97-fa06-4479-ac17-ce2de29bf1f3:::78:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/query]-Duration[0]
+2023-10-13 17:40:15.002::::::WARN:::<nil>:::27:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:40:15.002::::::INFO:::fbd8c89c-69db-4b0b-b8b7-c3f7934ec1ab:::27:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /query,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:40:15.002::::::INFO:::fbd8c89c-69db-4b0b-b8b7-c3f7934ec1ab:::27:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /query, cost 0s Resp Body {"message":"query"}
+2023-10-13 17:40:15.002::::::INFO:::fbd8c89c-69db-4b0b-b8b7-c3f7934ec1ab:::27:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/query]-Duration[0]
+2023-10-13 17:40:19.433::::::WARN:::<nil>:::47:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:40:19.433::::::INFO:::2e5edcee-9747-4547-a677-e29c9f86b1cb:::47:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /query,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:40:19.433::::::INFO:::2e5edcee-9747-4547-a677-e29c9f86b1cb:::47:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /query, cost 0s Resp Body {"message":"query"}
+2023-10-13 17:40:19.433::::::INFO:::2e5edcee-9747-4547-a677-e29c9f86b1cb:::47:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/query]-Duration[0]
+2023-10-13 17:40:30.148::::::WARN:::<nil>:::92:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:40:30.148::::::INFO:::932deb9d-4059-441b-84d9-adc9ec837edc:::92:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /query,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:40:30.148::::::INFO:::932deb9d-4059-441b-84d9-adc9ec837edc:::92:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /query, cost 0s Resp Body {"message":"query"}
+2023-10-13 17:40:30.148::::::INFO:::932deb9d-4059-441b-84d9-adc9ec837edc:::92:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/query]-Duration[0]
+2023-10-13 17:40:32.121::::::WARN:::<nil>:::98:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:40:32.121::::::INFO:::8e44d738-2b47-4015-8e45-8a96af302d07:::98:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /settlement/page?productId=20002001&st=c81e728d9d4c2f636f067f89cc14862c,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:40:32.121::::::INFO:::8e44d738-2b47-4015-8e45-8a96af302d07:::98:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /settlement/page?productId=20002001&st=c81e728d9d4c2f636f067f89cc14862c, cost 0s Resp Body {"message":"page"}
+2023-10-13 17:40:32.121::::::INFO:::8e44d738-2b47-4015-8e45-8a96af302d07:::98:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/settlement/page]-Duration[0]
+2023-10-13 17:40:34.483::::::WARN:::<nil>:::28:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:40:34.483::::::INFO:::644de470-1e8b-4b53-9427-2cd8f4dd689e:::28:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /settlement/page,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:40:34.483::::::INFO:::644de470-1e8b-4b53-9427-2cd8f4dd689e:::28:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /settlement/page, cost 0s Resp Body {"message":"page"}
+2023-10-13 17:40:34.483::::::INFO:::644de470-1e8b-4b53-9427-2cd8f4dd689e:::28:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/settlement/page]-Duration[0]
+2023-10-13 17:40:53.758::::::WARN:::<nil>:::115:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:40:53.758::::::INFO:::a0960273-cb13-4051-8655-eb1acd070511:::115:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /query,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:40:53.758::::::INFO:::a0960273-cb13-4051-8655-eb1acd070511:::115:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /query, cost 0s Resp Body {"message":"query"}
+2023-10-13 17:40:53.758::::::INFO:::a0960273-cb13-4051-8655-eb1acd070511:::115:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/query]-Duration[0]
+2023-10-13 17:41:14.593::::::WARN:::<nil>:::131:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err unexpected end of JSON input
+2023-10-13 17:41:14.593::::::INFO:::28c4c38e-6abc-4b6b-a73b-1dc683cee49a:::131:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /query,[Body]:; [Header]:{"Accept":["text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"],"Accept-Encoding":["gzip, deflate, br"],"Accept-Language":["zh-CN,zh;q=0.9"],"Cache-Control":["max-age=0"],"Connection":["close"],"Sec-Ch-Ua":["\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\""],"Sec-Ch-Ua-Mobile":["?0"],"Sec-Ch-Ua-Platform":["\"Windows\""],"Sec-Fetch-Dest":["document"],"Sec-Fetch-Mode":["navigate"],"Sec-Fetch-Site":["none"],"Sec-Fetch-User":["?1"],"Upgrade-Insecure-Requests":["1"],"User-Agent":["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"]}
+2023-10-13 17:41:14.593::::::INFO:::28c4c38e-6abc-4b6b-a73b-1dc683cee49a:::131:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /query, cost 0s Resp Body {"message":"query"}
+2023-10-13 17:41:14.593::::::INFO:::28c4c38e-6abc-4b6b-a73b-1dc683cee49a:::131:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/query]-Duration[0]
+2023-10-16 15:44:33.649::::::WARN:::<nil>:::67:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 15:44:33.65::::::INFO:::c889b168-d02a-4ca3-a80b-a124c1dba3b7:::67:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: POST /activity/create,[Body]:----------------------------017112074433267006486843
+Content-Disposition: form-data; name="activity_name"
+
+10-16-葡萄大甩卖
+----------------------------017112074433267006486843
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------017112074433267006486843
+Content-Disposition: form-data; name="start_time"
+
+1697005564
+----------------------------017112074433267006486843
+Content-Disposition: form-data; name="end_time"
+
+1697091982
+----------------------------017112074433267006486843
+Content-Disposition: form-data; name="total"
+
+20
+----------------------------017112074433267006486843
+Content-Disposition: form-data; name="status"
+
+1
+----------------------------017112074433267006486843
+Content-Disposition: form-data; name="speed"
+
+1
+----------------------------017112074433267006486843
+Content-Disposition: form-data; name="buy_limit"
+
+10
+----------------------------017112074433267006486843
+Content-Disposition: form-data; name="buy_rate"
+
+0.2
+----------------------------017112074433267006486843--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["1072"],"Content-Type":["multipart/form-data; boundary=--------------------------017112074433267006486843"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 15:44:33.662::::::INFO:::c889b168-d02a-4ca3-a80b-a124c1dba3b7:::67:::gorm.go.90 gormcli.(*GormLogger).Print:::[sql D:/project/Go/blitzSeckill/admin/src/model/activity_model.go:37 10.979ms INSERT INTO `activity` (`activity_name`,`product_id`,`start_time`,`end_time`,`total`,`sec_speed`,`buy_limit`,`buy_rate`) VALUES (?,?,?,?,?,?,?,?) [10-16-葡萄大甩卖 4 1697005564 1697091982 20 1 10 0.2] 1] sql ""
+2023-10-16 15:44:33.663::::::INFO:::c889b168-d02a-4ca3-a80b-a124c1dba3b7:::67:::gorm.go.90 gormcli.(*GormLogger).Print:::[sql D:/project/Go/blitzSeckill/admin/src/model/activity_model.go:37 1.2289ms SELECT `status` FROM `activity`  WHERE (activity_id = ?) [22] 1] sql ""
+2023-10-16 15:44:33.669::::::INFO:::c889b168-d02a-4ca3-a80b-a124c1dba3b7:::67:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /activity/create, cost 20.6773ms Resp Body {"code":200,"msg":"success"}
+2023-10-16 15:44:33.669::::::INFO:::c889b168-d02a-4ca3-a80b-a124c1dba3b7:::67:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/activity/create]-Duration[0.0206773]
+2023-10-16 16:00:58.371::::::WARN:::<nil>:::52:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:00:58.372::::::INFO:::90f84abc-3d4c-4503-9ce7-ed3ed1964def:::52:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: POST /sec/kill,[Body]:----------------------------798304830696162146917924
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------798304830696162146917924
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------798304830696162146917924
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------798304830696162146917924
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------798304830696162146917924
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------798304830696162146917924
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------798304830696162146917924--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------798304830696162146917924"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:00:58.372::::::INFO:::90f84abc-3d4c-4503-9ce7-ed3ed1964def:::52:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /sec/kill, cost 2.371ms Resp Body 
+2023-10-16 16:00:58.373::::::INFO:::90f84abc-3d4c-4503-9ce7-ed3ed1964def:::52:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/sec/kill]-Duration[0.0029003]
+2023-10-16 16:01:27.997::::::WARN:::<nil>:::14:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:01:27.997::::::INFO:::3090aabf-2ed4-4e19-a212-706aab8ffd62:::14:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: POST /sec/kill,[Body]:----------------------------224394951397770938121644
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------224394951397770938121644
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------224394951397770938121644
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------224394951397770938121644
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------224394951397770938121644
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------224394951397770938121644
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------224394951397770938121644--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------224394951397770938121644"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:01:27.997::::::INFO:::3090aabf-2ed4-4e19-a212-706aab8ffd62:::14:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /sec/kill, cost 0s Resp Body 
+2023-10-16 16:01:27.997::::::INFO:::3090aabf-2ed4-4e19-a212-706aab8ffd62:::14:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/sec/kill]-Duration[0]
+2023-10-16 16:01:37.322::::::WARN:::<nil>:::25:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:01:37.322::::::INFO:::9f26279e-1671-43c1-b79c-be99b73c9eec:::25:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: POST /sec/kill,[Body]:----------------------------250233598765870466560324
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------250233598765870466560324
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------250233598765870466560324
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------250233598765870466560324
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------250233598765870466560324
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------250233598765870466560324
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------250233598765870466560324--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------250233598765870466560324"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:01:37.322::::::INFO:::9f26279e-1671-43c1-b79c-be99b73c9eec:::25:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /sec/kill, cost 68.9µs Resp Body 
+2023-10-16 16:01:37.322::::::INFO:::9f26279e-1671-43c1-b79c-be99b73c9eec:::25:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/sec/kill]-Duration[6.89e-05]
+2023-10-16 16:01:41.645::::::WARN:::<nil>:::48:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:01:41.645::::::INFO:::7c44e964-22d5-41c5-af4e-95d3d8d83f72:::48:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: POST /activity/create,[Body]:----------------------------376681593133807647899757
+Content-Disposition: form-data; name="activity_name"
+
+10-16-葡萄大甩卖
+----------------------------376681593133807647899757
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------376681593133807647899757
+Content-Disposition: form-data; name="start_time"
+
+1697005564
+----------------------------376681593133807647899757
+Content-Disposition: form-data; name="end_time"
+
+1697091982
+----------------------------376681593133807647899757
+Content-Disposition: form-data; name="total"
+
+20
+----------------------------376681593133807647899757
+Content-Disposition: form-data; name="status"
+
+1
+----------------------------376681593133807647899757
+Content-Disposition: form-data; name="speed"
+
+1
+----------------------------376681593133807647899757
+Content-Disposition: form-data; name="buy_limit"
+
+10
+----------------------------376681593133807647899757
+Content-Disposition: form-data; name="buy_rate"
+
+0.2
+----------------------------376681593133807647899757--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["1072"],"Content-Type":["multipart/form-data; boundary=--------------------------376681593133807647899757"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:01:41.648::::::INFO:::7c44e964-22d5-41c5-af4e-95d3d8d83f72:::48:::gorm.go.90 gormcli.(*GormLogger).Print:::[sql D:/project/Go/blitzSeckill/admin/src/model/activity_model.go:37 2.6185ms INSERT INTO `activity` (`activity_name`,`product_id`,`start_time`,`end_time`,`total`,`sec_speed`,`buy_limit`,`buy_rate`) VALUES (?,?,?,?,?,?,?,?) [10-16-葡萄大甩卖 4 1697005564 1697091982 20 1 10 0.2] 1] sql ""
+2023-10-16 16:01:41.649::::::INFO:::7c44e964-22d5-41c5-af4e-95d3d8d83f72:::48:::gorm.go.90 gormcli.(*GormLogger).Print:::[sql D:/project/Go/blitzSeckill/admin/src/model/activity_model.go:37 1.0101ms SELECT `status` FROM `activity`  WHERE (activity_id = ?) [23] 1] sql ""
+2023-10-16 16:01:41.656::::::INFO:::7c44e964-22d5-41c5-af4e-95d3d8d83f72:::48:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /activity/create, cost 10.8043ms Resp Body {"code":200,"msg":"success"}
+2023-10-16 16:01:41.656::::::INFO:::7c44e964-22d5-41c5-af4e-95d3d8d83f72:::48:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/activity/create]-Duration[0.0108043]
+2023-10-16 16:02:43.556::::::WARN:::<nil>:::56:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:02:43.557::::::INFO:::bf9272a6-35b8-4514-aa86-5c6c17cdc4a1:::56:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: POST /sec/kill,[Body]:----------------------------018723418125008492795164
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------018723418125008492795164
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------018723418125008492795164
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------018723418125008492795164
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------018723418125008492795164
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------018723418125008492795164
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------018723418125008492795164--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------018723418125008492795164"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:02:43.557::::::INFO:::bf9272a6-35b8-4514-aa86-5c6c17cdc4a1:::56:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /sec/kill, cost 1.787ms Resp Body 
+2023-10-16 16:02:43.557::::::INFO:::bf9272a6-35b8-4514-aa86-5c6c17cdc4a1:::56:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/sec/kill]-Duration[0.001787]
+2023-10-16 16:03:00.997::::::WARN:::<nil>:::69:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:03:00.997::::::INFO:::dd1e17cc-23bb-4173-9af3-21c90443c20e:::69:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /sec/kill,[Body]:----------------------------261639977606041497631045
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------261639977606041497631045
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------261639977606041497631045
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------261639977606041497631045
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------261639977606041497631045
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------261639977606041497631045
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------261639977606041497631045--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------261639977606041497631045"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:03:00.998::::::ERROR:::<nil>:::69:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:ERR Error running script (call to f_57e87c619281ffd34e9bc44b56760057746c9d10): @user_script:2: user_script:2: attempt to compare number with nil 
+
+2023-10-16 16:03:00.998::::::WARN:::f69fd28a-614e-430c-9990-1f0ea2be210d:::69:::recover.go.41 gin.CreateGin.PanicRecover.func1.1:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:03:01::::::ERROR:::f69fd28a-614e-430c-9990-1f0ea2be210d:::69:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 69 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x14a6f40?, 0xc0001ec440?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x1598a47?, 0xc000621588?}, 0xcc0d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:62 +0x128
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000072c00?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc000008e40?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000618100)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0x113936e?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+g
+
+
+2023-10-16 16:03:07.305::::::WARN:::<nil>:::57:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:03:07.305::::::INFO:::7f7b83ea-1cf1-4ecd-ba5e-f8025883be28:::57:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /sec/kill,[Body]:----------------------------966659311444137874830082
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------966659311444137874830082
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------966659311444137874830082
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------966659311444137874830082
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------966659311444137874830082
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------966659311444137874830082
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------966659311444137874830082--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------966659311444137874830082"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:03:07.306::::::ERROR:::<nil>:::57:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:ERR Error running script (call to f_57e87c619281ffd34e9bc44b56760057746c9d10): @user_script:2: user_script:2: attempt to compare number with nil 
+
+2023-10-16 16:03:07.306::::::WARN:::8eed7b1d-0864-4015-a668-11fcc9c37202:::57:::recover.go.41 gin.CreateGin.PanicRecover.func1.1:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:03:07.307::::::ERROR:::8eed7b1d-0864-4015-a668-11fcc9c37202:::57:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 57 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x14a6f40?, 0xc0001ec0a0?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x1598a47?, 0xc000621588?}, 0xcc0d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:62 +0x128
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000580000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc00060c018?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000618100)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0x4db100?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+gi
+
+
+2023-10-16 16:03:10.163::::::WARN:::<nil>:::46:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:03:10.163::::::INFO:::e347f67c-b72b-4231-9b24-acfcc49f56c2:::46:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /sec/kill,[Body]:----------------------------746151412220254415708881
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------746151412220254415708881
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------746151412220254415708881
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------746151412220254415708881
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------746151412220254415708881
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------746151412220254415708881
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------746151412220254415708881--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------746151412220254415708881"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:03:10.163::::::ERROR:::<nil>:::46:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:ERR Error running script (call to f_57e87c619281ffd34e9bc44b56760057746c9d10): @user_script:2: user_script:2: attempt to compare number with nil 
+
+2023-10-16 16:03:10.163::::::WARN:::47e8ebc6-b2c3-4bdf-84f1-67c63e345afa:::46:::recover.go.41 gin.CreateGin.PanicRecover.func1.1:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:03:10.164::::::ERROR:::47e8ebc6-b2c3-4bdf-84f1-67c63e345afa:::46:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 46 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x14a6f40?, 0xc0003162a0?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x1598a47?, 0xc00061d588?}, 0xcc0d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:62 +0x128
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000072c00?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc000008600?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000618100)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0x113936e?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000618100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+g
+
+
+2023-10-16 16:03:42.205::::::WARN:::<nil>:::26:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:03:42.205::::::INFO:::df3f01f3-c06b-4232-99cb-92de68e0e382:::26:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /sec/kill,[Body]:----------------------------935816533280625171617121
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------935816533280625171617121
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------935816533280625171617121
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------935816533280625171617121
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------935816533280625171617121
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------935816533280625171617121
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------935816533280625171617121--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------935816533280625171617121"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:03:42.206::::::ERROR:::<nil>:::26:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:ERR Error running script (call to f_57e87c619281ffd34e9bc44b56760057746c9d10): @user_script:2: user_script:2: attempt to compare number with nil 
+
+2023-10-16 16:03:42.206::::::WARN:::55b3861c-5f4b-4ec6-8547-3b1cc51ffb3b:::26:::recover.go.41 gin.CreateGin.PanicRecover.func1.1:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:03:42.207::::::ERROR:::55b3861c-5f4b-4ec6-8547-3b1cc51ffb3b:::26:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 26 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x886f40?, 0xc0002821b0?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x978a47?, 0xc000279588?}, 0xa0d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:62 +0x128
+blitzSeckill/admin/src/controller/activity.SecKill(0x1019d80?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc0004ca200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc000008348?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc0004ca200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc0004ca200)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc0004ca200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0x51936e?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0004ca200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0004ca200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+github.c
+
+
+2023-10-16 16:07:11.339::::::WARN:::<nil>:::38:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:07:11.339::::::INFO:::9438419b-071a-4604-9a26-b3e6823efdc2:::38:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /sec/kill,[Body]:----------------------------110246367109792932610553
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------110246367109792932610553
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------110246367109792932610553
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------110246367109792932610553
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------110246367109792932610553
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------110246367109792932610553
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------110246367109792932610553--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------110246367109792932610553"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:07:11.341::::::ERROR:::<nil>:::38:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:ERR Error running script (call to f_57e87c619281ffd34e9bc44b56760057746c9d10): @user_script:2: user_script:2: attempt to compare number with nil 
+
+2023-10-16 16:07:11.341::::::WARN:::6f7522dc-8d53-48fc-9d80-776d4bc7bb92:::38:::recover.go.41 gin.CreateGin.PanicRecover.func1.1:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:07:11.341::::::ERROR:::6f7522dc-8d53-48fc-9d80-776d4bc7bb92:::38:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 38 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x11a6f40?, 0xc0001e4800?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x1298a47?, 0xc0000d1588?}, 0x9c0d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:62 +0x128
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000072c00?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000120400)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc00028c018?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000120400)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000120400)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000120400)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xe3936e?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000120400)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000120400)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+gi
+
+
+2023-10-16 16:08:05.841::::::WARN:::<nil>:::25:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:08:05.843::::::INFO:::809f83cc-b957-4421-97d4-ce429c17a290:::25:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /sec/kill,[Body]:----------------------------552527840675846916651410
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------552527840675846916651410
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------552527840675846916651410
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------552527840675846916651410
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------552527840675846916651410
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------552527840675846916651410
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------552527840675846916651410--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------552527840675846916651410"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:08:05.844::::::INFO:::809f83cc-b957-4421-97d4-ce429c17a290:::25:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /sec/kill, cost 2.1148ms Resp Body 
+2023-10-16 16:08:05.844::::::INFO:::809f83cc-b957-4421-97d4-ce429c17a290:::25:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/sec/kill]-Duration[0.0021148]
+2023-10-16 16:24:16.641::::::WARN:::<nil>:::44:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:24:16.641::::::INFO:::fe5dece7-859f-4fbf-8262-b0a4403856b3:::44:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: POST /activity/create,[Body]:----------------------------752514551188516392321022
+Content-Disposition: form-data; name="activity_name"
+
+10-16-葡萄大甩卖
+----------------------------752514551188516392321022
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------752514551188516392321022
+Content-Disposition: form-data; name="start_time"
+
+1697005564
+----------------------------752514551188516392321022
+Content-Disposition: form-data; name="end_time"
+
+1697091982
+----------------------------752514551188516392321022
+Content-Disposition: form-data; name="total"
+
+20
+----------------------------752514551188516392321022
+Content-Disposition: form-data; name="status"
+
+1
+----------------------------752514551188516392321022
+Content-Disposition: form-data; name="speed"
+
+1
+----------------------------752514551188516392321022
+Content-Disposition: form-data; name="buy_limit"
+
+10
+----------------------------752514551188516392321022
+Content-Disposition: form-data; name="buy_rate"
+
+0.2
+----------------------------752514551188516392321022--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["1072"],"Content-Type":["multipart/form-data; boundary=--------------------------752514551188516392321022"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:24:16.645::::::INFO:::fe5dece7-859f-4fbf-8262-b0a4403856b3:::44:::gorm.go.90 gormcli.(*GormLogger).Print:::[sql D:/project/Go/blitzSeckill/admin/src/model/activity_model.go:37 2.7963ms INSERT INTO `activity` (`activity_name`,`product_id`,`start_time`,`end_time`,`total`,`sec_speed`,`buy_limit`,`buy_rate`) VALUES (?,?,?,?,?,?,?,?) [10-16-葡萄大甩卖 4 1697005564 1697091982 20 1 10 0.2] 1] sql ""
+2023-10-16 16:24:16.645::::::INFO:::fe5dece7-859f-4fbf-8262-b0a4403856b3:::44:::gorm.go.90 gormcli.(*GormLogger).Print:::[sql D:/project/Go/blitzSeckill/admin/src/model/activity_model.go:37 525.3µs SELECT `status` FROM `activity`  WHERE (activity_id = ?) [24] 1] sql ""
+2023-10-16 16:24:16.652::::::INFO:::fe5dece7-859f-4fbf-8262-b0a4403856b3:::44:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /activity/create, cost 11.3095ms Resp Body {"code":200,"msg":"success"}
+2023-10-16 16:24:16.652::::::INFO:::fe5dece7-859f-4fbf-8262-b0a4403856b3:::44:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/activity/create]-Duration[0.0113095]
+2023-10-16 16:24:25.619::::::WARN:::<nil>:::25:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:24:25.62::::::INFO:::f04bee57-d0c1-4203-a395-2c09ba2ea690:::25:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /sec/kill,[Body]:----------------------------047725496724141507955488
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------047725496724141507955488
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------047725496724141507955488
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------047725496724141507955488
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------047725496724141507955488
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------047725496724141507955488
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------047725496724141507955488--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------047725496724141507955488"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:24:25.62::::::INFO:::f04bee57-d0c1-4203-a395-2c09ba2ea690:::25:::logprint.go.112 gin.CreateGin.InfoLog.func2:::Url: /sec/kill, cost 505.4µs Resp Body {"message":0}
+2023-10-16 16:24:25.62::::::INFO:::f04bee57-d0c1-4203-a395-2c09ba2ea690:::25:::logprint.go.116 gin.CreateGin.InfoLog.func2:::ReqPath[/sec/kill]-Duration[0.0005054]
+2023-10-16 16:25:37.59::::::WARN:::<nil>:::29:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:25:37.591::::::INFO:::0091c5c8-c2b9-408c-b52c-51983fe2ef44:::29:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /sec/kill,[Body]:----------------------------865646975006987041700106
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------865646975006987041700106
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------865646975006987041700106
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------865646975006987041700106
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------865646975006987041700106
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------865646975006987041700106
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------865646975006987041700106--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------865646975006987041700106"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:25:37.624::::::ERROR:::<nil>:::29:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:ERR Error running script (call to f_57e87c619281ffd34e9bc44b56760057746c9d10): @user_script:2: user_script:2: attempt to compare number with nil 
+
+2023-10-16 16:25:37.624::::::WARN:::cb5528a9-b743-401c-a826-656e4d69480e:::29:::recover.go.41 gin.CreateGin.PanicRecover.func1.1:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:25:37.626::::::ERROR:::cb5528a9-b743-401c-a826-656e4d69480e:::29:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 29 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1096f40?, 0xc0002229d0?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x1188a47?, 0xc000165588?}, 0x8b0d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:62 +0x128
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000580000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000526a00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc0001de270?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000526a00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000526a00)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000526a00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc00020e2a0?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000526a00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000526a00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xd
+
+
+2023-10-16 16:30:21.908::::::WARN:::<nil>:::39:::logprint.go.79 gin.CreateGin.InfoLog.func2:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:30:21.908::::::INFO:::a8996d48-4a87-4bda-be59-4b51efd94b90:::39:::logprint.go.89 gin.CreateGin.InfoLog.func2:::Req Url: GET /sec/kill,[Body]:----------------------------670578156132178897666617
+Content-Disposition: form-data; name="product_id"
+
+4
+----------------------------670578156132178897666617
+Content-Disposition: form-data; name="user_id"
+
+1
+----------------------------670578156132178897666617
+Content-Disposition: form-data; name="src"
+
+192.168.199.1
+----------------------------670578156132178897666617
+Content-Disposition: form-data; name="auth_code"
+
+userauthcode
+----------------------------670578156132178897666617
+Content-Disposition: form-data; name="time"
+
+1530928164
+----------------------------670578156132178897666617
+Content-Disposition: form-data; name="nance"
+
+dsdsdjkdjskdjksdjhuieurierei
+----------------------------670578156132178897666617--
+; [Header]:{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Cache-Control":["no-cache"],"Connection":["keep-alive"],"Content-Length":["753"],"Content-Type":["multipart/form-data; boundary=--------------------------670578156132178897666617"],"User-Agent":["PostmanRuntime-ApipostRuntime/1.1.0"]}
+2023-10-16 16:30:21.911::::::ERROR:::<nil>:::39:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:ERR Error running script (call to f_57e87c619281ffd34e9bc44b56760057746c9d10): @user_script:2: user_script:2: attempt to compare number with nil 
+
+2023-10-16 16:30:21.911::::::WARN:::4bede141-4179-4789-bbc3-68745c95113e:::39:::recover.go.41 gin.CreateGin.PanicRecover.func1.1:::Req Body json unmarshal requestID err invalid character '-' in numeric literal
+2023-10-16 16:30:21.912::::::ERROR:::4bede141-4179-4789-bbc3-68745c95113e:::39:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 39 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0xb86f40?, 0xc00061a070?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0xc78a47?, 0xc00043d588?}, 0x3a0d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:64 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000480000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc0000a0200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc000008510?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc0000a0200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc0000a0200)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc0000a0200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0x4ac9b0?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0000a0200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0000a0200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+gith
+
+
