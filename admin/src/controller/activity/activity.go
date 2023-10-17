@@ -5,7 +5,6 @@ import (
 	"blitzSeckill/admin/src/model"
 	"blitzSeckill/admin/src/service"
 	"blitzSeckill/until/com"
-	"fmt"
 	"github.com/gin-gonic/gin"
 	"log"
 	"strconv"
@@ -66,9 +65,29 @@ func GetActivityList(ctx *gin.Context) {
 }
 
 func SecKill(ctx *gin.Context) {
-	count := cache.Evalsha("product_2023_1016", 2)
-	fmt.Print("限购结果：", count)
-	ctx.JSON(200, gin.H{
-		"message": count,
-	})
+	count, err := cache.Evalsha("product_2023_1016", 2)
+
+	message := "success"
+	code := 200
+	if err != nil || count < 0 {
+		ctx.JSON(200, gin.H{
+			"message": message,
+			"code":    code,
+		})
+		return
+	}
+
+	//扣减库存
+	product := &model.Product{}
+	//活动名称
+	product.ProductId = 1
+	productServer := service.NewProductServer()
+	if err := productServer.UpdateStockNum(product, 2); err != nil {
+		log.Printf("productServer.UpdateStockNum, Error : %v", err)
+		ctx.JSON(400, map[string]interface{}{
+			"code": 400,
+			"msg":  "failed",
+		})
+		return
+	}
 }

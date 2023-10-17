@@ -2,7 +2,6 @@ package cache
 
 import (
 	"blitzSeckill/admin/src/config"
-	"errors"
 	"fmt"
 	"github.com/niuniumart/gosdk/goredis"
 	"github.com/niuniumart/gosdk/martlog"
@@ -15,12 +14,20 @@ var (
 	prefix     = "blitz_seckill_admin"
 	expireTime = time.Hour * 24 // 默认为24小时
 
-	storeDeductionScriptLua = "local c_s = redis.call('get', KEYS[1])\n" +
-		"if not c_s or tonumber(c_s) < tonumber(KEYS[2]) then\n" +
-		"return 0\n" +
-		"end\n" +
-		"redis.call('decrby',KEYS[1], KEYS[2])\n" +
-		"return 1"
+	storeDeductionScriptLua = `
+		local key = KEYS[1]
+		local decrement = tonumber(ARGV[1])
+	
+		local currentStock = tonumber(redis.call("GET", key) or "0")
+		local newStock = currentStock - decrement
+	
+		if newStock < 0 then
+			return -1
+		else
+			redis.call("SET", key, newStock)
+			return newStock
+		end
+	`
 
 	storeDeductionScriptSha1 string
 )
@@ -56,17 +63,18 @@ func InitCache() error {
 
 // Evalsha
 // 调用Lua脚本,不需要每次都传入Lua脚本，只需要传入预编译返回的sha1即可
-func Evalsha(key string, buyNum int) int64 {
+func Evalsha(key string, buyNum int) (int64, error) {
 	// 使用 EvalSha 方法执行脚本
 	result, err := rdb.RedisPool.EvalSha(context.Background(), storeDeductionScriptSha1, []string{key}, buyNum).Result()
 	if err != nil {
-		fmt.Println(err)
-		panic(err)
+		fmt.Println("EvalSha Lua script execution failed:", err)
+		return -1, err
 	}
 
 	value, ok := result.(int64)
 	if !ok {
-		panic(errors.New("返回值类型错误"))
+		fmt.Println("返回值类型错误:", err)
+		return -1, err
 	}
-	return value
+	return value, nil
 }

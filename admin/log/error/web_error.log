@@ -235,3 +235,716 @@ github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0000a0200)
 gith
 
 
+2023-10-16 17:36:58.391::::::ERROR:::<nil>:::48:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:ERR Error running script (call to f_57e87c619281ffd34e9bc44b56760057746c9d10): @user_script:2: user_script:2: attempt to compare number with nil 
+
+2023-10-16 17:36:58.392::::::ERROR:::a3c2289b-c958-4686-9f2f-0f2d8abeb826:::48:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 48 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0xa06f40?, 0xc0000466d0?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0xaf8a4f?, 0xc000237588?}, 0x220d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:65 +0x225
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000500000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000530100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc00019abd0?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000530100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000530100)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000530100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0x4b0358?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000530100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000530100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+gith
+
+
+2023-10-16 17:38:47.68::::::ERROR:::<nil>:::50:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:ERR Error running script (call to f_57e87c619281ffd34e9bc44b56760057746c9d10): @user_script:2: user_script:2: attempt to compare number with nil 
+
+2023-10-16 17:38:47.681::::::ERROR:::8d421c6b-edc9-4a48-a5fe-fd1e2305d527:::50:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 50 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1796f40?, 0xc000404310?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x1888a4f?, 0xc000269588?}, {0x189cccb?, 0xc00024a240?})
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:65 +0x22b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000080000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x3d
+github.com/gin-gonic/gin.(*Context).Next(0xc000120300)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc000294078?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000120300)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000120300)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000120300)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0x4a5260?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000120300)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000120300)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logg
+
+
+2023-10-16 17:54:46.564::::::ERROR:::<nil>:::69:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:ERR Error running script (call to f_eec8128404c2fa1fec1a45d0175e450b20a55b3f): @user_script:3: user_script:3: attempt to compare number with nil 
+
+2023-10-16 17:54:46.566::::::ERROR:::d310b0a0-3a4c-4085-b751-064801932bb1:::69:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 69 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1766f40?, 0xc000164040?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x1858a4f?, 0xc00052b588?}, 0xf80d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:82 +0x225
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000680400?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000522100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc00077e030?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000522100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000522100)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000522100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0x4912d8?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000522100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000522100)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+gi
+
+
+2023-10-16 18:05:51.098::::::ERROR:::<nil>:::72:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:51.117::::::ERROR:::<nil>:::73:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:51.122::::::ERROR:::<nil>:::53:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:51.125::::::ERROR:::<nil>:::29:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:51.13::::::ERROR:::<nil>:::162:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:51.13::::::ERROR:::<nil>:::140:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:51.13::::::ERROR:::<nil>:::28:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:51.131::::::ERROR:::20e4d6fe-49d2-4d65-ba52-c3b93ca3084f:::72:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 72 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc0001ad588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc0003b2c00?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc00072e200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc000088030?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc00072e200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc00072e200)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc00072e200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc00008ec30?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc00072e200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc00072e200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+g
+
+
+2023-10-16 18:05:51.135::::::ERROR:::31b03813-6626-4754-ad74-84425460d765:::73:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 73 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0x80829c?}, 0x800d73?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000580000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc0003f4200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc0000551d0?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc0003f4200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc0003f4200)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc0003f4200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc79505?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0003f4200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0003f4200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+github.co
+
+
+2023-10-16 18:05:51.136::::::ERROR:::a330d044-e0b0-41fa-98bf-760622653781:::53:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 53 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc0000c9588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000080000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000120700)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc0000101e0?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000120700)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000120700)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000120700)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc79505?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000120700)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000120700)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+githu
+
+
+2023-10-16 18:05:51.136::::::ERROR:::faf55bdf-79ae-4cfc-be2f-8a3784be5ee8:::29:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 29 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc0007fd588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000072800?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000120200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc0000104f8?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000120200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000120200)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000120200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000120200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000120200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+githu
+
+
+2023-10-16 18:05:51.137::::::ERROR:::91efdcbc-3f20-41bf-aa66-61c57f12b9a1:::162:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 162 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc0000d9588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc0003b2c00?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc00072e300)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc0005180a8?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc00072e300)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc00072e300)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc00072e300)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc00072e300)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc00072e300)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+gith
+
+
+2023-10-16 18:05:51.14::::::ERROR:::eca708b8-bd16-495f-8dd7-fe6ff7ece9d6:::140:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 140 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc0004c9588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000072c00?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc00072e000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc000518168?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc00072e000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc00072e000)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc00072e000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc00072e000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc00072e000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+gith
+
+
+2023-10-16 18:05:51.141::::::ERROR:::c469f76b-6cb4-41a6-9856-2c0fbd940575:::28:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 28 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc000529588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0x1779d80?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc0006a9000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc0000093f8?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc0006a9000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc0006a9000)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc0006a9000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0006a9000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0006a9000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+github.c
+
+
+2023-10-16 18:05:51.141::::::ERROR:::<nil>:::149:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:51.142::::::ERROR:::bed755cd-0fb4-4809-b906-476987ef7074:::149:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 149 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc000579588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000080000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc000088120?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+gith
+
+
+2023-10-16 18:05:51.356::::::ERROR:::<nil>:::154:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:51.363::::::ERROR:::3b40b327-70c6-42e2-8e80-f1b985ff4389:::154:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 154 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc000651588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0x1779d80?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000120a00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc00061c1f8?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000120a00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000120a00)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000120a00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000120a00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000120a00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+github.
+
+
+2023-10-16 18:05:51.365::::::ERROR:::<nil>:::27:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:51.367::::::ERROR:::5bd2ca27-adaf-4e57-acac-3a68801b1d30:::27:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 27 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc00052d588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000600000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc0003f4000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc0003be0d8?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc0003f4000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc0003f4000)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc0003f4000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0003f4000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0003f4000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+githu
+
+
+2023-10-16 18:05:51.824::::::ERROR:::<nil>:::76:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:51.829::::::ERROR:::1ecf09aa-4828-4c33-bda3-fb9a6b7f7d0f:::76:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 76 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0x80829c?}, 0x800d73?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000600c00?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000626000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc0000501c0?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000626000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000626000)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000626000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc79505?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000626000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000626000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+github.co
+
+
+2023-10-16 18:05:59.12::::::ERROR:::<nil>:::30:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:59.129::::::ERROR:::3515ee41-722b-4b57-9d8a-df6a67877b60:::30:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 30 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0x80829c?}, 0x800d73?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc0003b2c00?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000588000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc0000577f8?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000588000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000588000)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000588000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000588000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000588000)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+github.co
+
+
+2023-10-16 18:05:59.13::::::ERROR:::<nil>:::26:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:59.136::::::ERROR:::7fda2e32-dda2-4912-8e5d-1110b00d9566:::26:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 26 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc0001b1588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000700000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c0400)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc000088300?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c0400)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc0000c0400)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c0400)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0000c0400)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0000c0400)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+githu
+
+
+2023-10-16 18:05:59.145::::::ERROR:::<nil>:::174:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:59.161::::::ERROR:::da502c89-7ef8-458e-b1f4-0abfe78ffd88:::174:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 174 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc00064d588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000600000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c0b00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc00050e300?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c0b00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc0000c0b00)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c0b00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0000c0b00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0000c0b00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+gith
+
+
+2023-10-16 18:05:59.194::::::ERROR:::<nil>:::127:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:05:59.21::::::ERROR:::09759208-14f0-472b-b4df-83eb86189807:::127:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 127 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc0001b5588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000073400?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc0007222a0?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0006a8200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+gith
+
+
+2023-10-16 18:06:01.342::::::ERROR:::<nil>:::65:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:06:01.343::::::ERROR:::6987762c-f8d1-414a-909e-127ffbddd8cc:::65:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 65 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc000575588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000601000?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000120700)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc000008de0?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000120700)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000120700)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000120700)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000120700)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000120700)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+githu
+
+
+2023-10-16 18:06:03.041::::::ERROR:::<nil>:::109:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:06:03.043::::::ERROR:::68cdee74-d35e-4cae-ae84-60a318b5ea99:::109:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 109 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc000765588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0x1779d80?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c0d00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc00050e420?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c0d00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc0000c0d00)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c0d00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc0000c0d00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0000c0d00)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+github.
+
+
+2023-10-16 18:06:03.046::::::ERROR:::<nil>:::196:::recover.go.36 gin.CreateGin.PanicRecover.func1.1:::In PanicRecover,Error:i/o timeout
+
+2023-10-16 18:06:03.047::::::ERROR:::905393f6-b0ad-411f-8499-e02545ba68d7:::196:::recover.go.49 gin.CreateGin.PanicRecover.func1.1:::panic stack info goroutine 196 [running]:
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1.1()
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:47 +0x21b
+panic({0x1000020?, 0x17d0220?})
+	C:/Program Files/Go/src/runtime/panic.go:914 +0x21f
+blitzSeckill/admin/src/cache.Evalsha({0x10d8a47?, 0xc0000c5588?}, 0x800d45?)
+	D:/project/Go/blitzSeckill/admin/src/cache/redis.go:72 +0x18b
+blitzSeckill/admin/src/controller/activity.SecKill(0xc000601400?)
+	D:/project/Go/blitzSeckill/admin/src/controller/activity/activity.go:69 +0x2d
+github.com/gin-gonic/gin.(*Context).Next(0xc000120200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.Cors.func3(0xc0000102a0?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/cors/cors.go:16 +0x4f
+github.com/gin-gonic/gin.(*Context).Next(0xc000120200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.InfoLog.func2(0xc000120200)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/logprint/logprint.go:96 +0x57c
+github.com/gin-gonic/gin.(*Context).Next(0xc000120200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 +0x2b
+github.com/niuniumart/gosdk/gin.CreateGin.PanicRecover.func1(0xc793ce?)
+	D:/go_path/pkg/mod/github.com/niuniumart/gosdk@v0.0.0-20230802040621-c42b9c9fc9bd/middleware/recover/recover.go:56 +0x45
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xc000120200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x7a
+github.com/gin-gonic/gin.(*Context).Next(...)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000120200)
+	D:/go_path/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xde
+gith
+
+
